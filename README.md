@@ -1,6 +1,6 @@
 # app-config
 
-iOS 3 アプリ（[shuchu-capsule](https://github.com/hiroooo/shuchu-capsule) / [sublog](https://github.com/hiroooo/sublog) / [kireilens](https://github.com/hiroooo/kireilens)）の **バージョンアップゲート設定** を配信する public リポ。
+iOS 5 アプリ（[shuchu-capsule](https://github.com/hiroooo/shuchu-capsule) / [shirowalk](https://github.com/hiroooo/shirowalk) / [sublog](https://github.com/hiroooo/sublog) / [kireilens](https://github.com/hiroooo/kireilens)）の **バージョンアップゲート設定** を配信する public リポ。
 
 各アプリは起動時と scenePhase `.active` 復帰時に `https://raw.githubusercontent.com/hiroooo/app-config/main/<bundleId>.json` を fetch し、
 現在バージョンと比較して強制/任意アップデートダイアログを出す。詳細は
@@ -39,6 +39,8 @@ iOS 3 アプリ（[shuchu-capsule](https://github.com/hiroooo/shuchu-capsule) / 
 Claude Code の `/bump-version` slash コマンドで JSON を書き換え、push で即反映。
 
 ```
+/bump-version shirowalk 1.1.0 --force  # 強制
+/bump-version shuchucapsule 1.2.0      # 任意アップデート
 /bump-version sublog 1.1.0             # 任意アップデート
 /bump-version sublog 1.2.0 --force     # 強制
 /bump-version sublog --min 1.5.0       # 既存 recommended を強制化
