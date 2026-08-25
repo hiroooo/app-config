@@ -4,10 +4,10 @@
     "ja": "無料体験を「5回スキャン無料」に改善。残りスキャン数が常に表示されるようになりました。",
     "en": "Improved free trial to '5 free scans'. Remaining scan count is now always visible."
   },
-  "updatedAt": "2026-06-07T12:00:00+09:00",
+  "updatedAt": "2026-08-26T02:23:34+09:00",
   "majors": {
     "1": {
-      "latestVersion": "1.1.2",
+      "latestVersion": "1.1.6",
       "minSupportedVersion": "1.0.0"
     }
   }

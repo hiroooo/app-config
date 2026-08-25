@@ -4,10 +4,10 @@
     "ja": "",
     "en": ""
   },
-  "updatedAt": "2026-04-20T09:15:00+09:00",
+  "updatedAt": "2026-08-26T02:23:34+09:00",
   "majors": {
     "1": {
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.0.5",
       "minSupportedVersion": "1.0.0"
     }
   }
